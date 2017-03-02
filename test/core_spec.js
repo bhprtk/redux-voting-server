@@ -98,7 +98,6 @@ describe('application logic', () => {
 				winner: 'Trainspotting'
 			}));
 		});
-
 	});
 
 	describe('vote', () => {
