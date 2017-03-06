@@ -129,8 +129,7 @@ describe('application logic', () => {
 						'Trainspotting': 3,
 						'28 Days Later': 2
 					})
-				}),
-				entries: List()
+				})
 			});
 			const nextState = vote(state, 'Trainspotting');
 			expect(nextState).to.equal(Map({
@@ -140,8 +139,7 @@ describe('application logic', () => {
 						'Trainspotting': 4,
 						'28 Days Later': 2
 					})
-				}),
-				entries: List()
+				})
 			}));
 		});
 
